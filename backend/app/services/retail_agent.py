@@ -255,19 +255,24 @@ class RetailAgent:
         Also adds low-stock warnings from inventory.
         """
         notifications = []
+        seen_messages = set()
 
         for evt in exit_events:
             if evt.get("type") == "exit":
                 pid = evt.get("product_id", "item")
-                # Try to get the friendly name
-                db_product = db.get_product(pid)
-                name = db_product["name"] if db_product else pid.replace("_", " ").title()
-                notifications.append({
-                    "type": "item_removed",
-                    "product_id": pid,
-                    "message": f"⚠️  '{name}' was removed from your basket.",
-                    "severity": "warning",
-                })
+                # Only show removal warnings if the product is not currently in the cart
+                if not _in_cart(cart, pid):
+                    db_product = db.get_product(pid)
+                    name = db_product["name"] if db_product else pid.replace("_", " ").title()
+                    msg = f"⚠️  '{name}' was removed from your basket."
+                    if msg not in seen_messages:
+                        seen_messages.add(msg)
+                        notifications.append({
+                            "type": "item_removed",
+                            "product_id": pid,
+                            "message": msg,
+                            "severity": "warning",
+                        })
 
         # Low-stock warnings
         for product in cart.get("products", []):

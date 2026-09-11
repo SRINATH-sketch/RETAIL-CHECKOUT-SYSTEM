@@ -19,14 +19,22 @@ class DetectionService:
                 f"Falling back to pre-trained '{model_path}'. It will be downloaded automatically if not present."
             )
 
+        # try:
+        #     self.model = YOLO(model_path)
+        #     logger.info("YOLOv11 model successfully loaded.")
+        # except Exception as e:
+        #     logger.exception(f"Failed to load YOLO model: {e}")
+        #     raise RuntimeError(f"Failed to initialize YOLOv11 model: {e}")
+
         try:
             self.model = YOLO(model_path)
+            print("Loaded model:", model_path)
             logger.info("YOLOv11 model successfully loaded.")
         except Exception as e:
             logger.exception(f"Failed to load YOLO model: {e}")
             raise RuntimeError(f"Failed to initialize YOLOv11 model: {e}")
 
-    def detect_frame(self, frame, confidence_threshold=0.25):
+    def detect_frame(self, frame, confidence_threshold=0.6):
         """
         Run YOLOv11 inference on a single frame.
         frame: numpy array (BGR image format)

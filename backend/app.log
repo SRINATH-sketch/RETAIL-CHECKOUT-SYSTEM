@@ -1015,3 +1015,1053 @@ AttributeError: 'Track' object has no attribute 'get_class'
 [2026-07-10 19:46:27,960] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
 [2026-07-10 19:46:27,960] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
 [2026-07-10 19:46:37,370] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-10 21:56:24,381] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-10 21:56:26,030] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-10 21:56:26,078] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-10 21:56:26,276] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-10 21:56:26,278] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-10 21:56:26,278] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-10 21:56:26,280] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-10 21:56:26,280] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-10 21:56:26,498] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-10 21:56:27,912] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-10 21:56:27,946] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-10 21:56:28,127] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-10 21:56:28,128] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-10 21:56:28,128] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-10 21:56:28,131] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-10 21:56:28,131] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-11 12:30:32,364] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-11 12:30:38,427] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-11 12:30:38,531] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-11 12:30:39,318] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-11 12:30:39,320] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-11 12:30:39,320] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-11 12:30:39,324] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-11 12:30:39,324] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-11 12:30:39,739] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-11 12:31:05,967] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-11 12:31:06,401] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-11 12:31:09,211] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-11 12:31:09,219] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-11 12:31:09,221] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-11 12:31:09,252] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-11 12:31:09,254] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-11 12:33:59,887] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-11 12:33:59,971] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_bbf4fe90_WhatsApp_Video_2026-07-10_at_6.40.49_PM.mp4
+[2026-07-11 12:34:00,179] INFO in api: Video: 480x864  19.02 fps  154 frames
+[2026-07-11 12:34:00,197] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-11 12:34:00,203] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-11 12:34:00,204] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-11 12:34:53,672] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-11 12:34:59,207] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-11 12:35:05,018] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-11 12:35:05,425] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_ceba07dc_WhatsApp_Video_2026-07-10_at_6.48.12_PM.mp4
+[2026-07-11 12:35:05,697] INFO in api: Video: 480x864  16.46 fps  32 frames
+[2026-07-11 12:35:05,753] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-11 12:35:05,767] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-11 12:35:05,771] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-11 12:35:13,472] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-11 12:35:31,002] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-11 12:35:47,566] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-11 12:35:48,360] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_1659b708_WhatsApp_Video_2026-07-10_at_6.40.49_PM.mp4
+[2026-07-11 12:35:48,851] INFO in api: Video: 480x864  19.02 fps  154 frames
+[2026-07-11 12:35:48,974] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-11 12:35:48,988] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-11 12:35:49,001] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-11 12:36:50,740] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-11 12:37:41,812] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-11 12:37:42,133] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-11 13:08:07,836] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-11 13:08:07,913] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_67d38b17_WhatsApp_Video_2026-07-10_at_6.40.49_PM.mp4
+[2026-07-11 13:08:07,990] INFO in api: Video: 480x864  19.02 fps  154 frames
+[2026-07-11 13:08:08,004] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-11 13:08:08,008] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-11 13:08:08,010] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-11 13:08:08,619] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-11 13:08:16,614] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-11 13:08:21,238] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-11 13:08:21,568] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_b993843d_WhatsApp_Video_2026-07-10_at_6.48.12_PM.mp4
+[2026-07-11 13:08:21,642] INFO in api: Video: 480x864  16.46 fps  32 frames
+[2026-07-11 13:08:21,652] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-11 13:08:21,655] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-11 13:08:21,656] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-11 13:08:42,358] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-11 13:09:09,419] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-11 13:09:09,745] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-11 15:26:47,067] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-11 15:26:56,236] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-11 15:26:56,513] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_026205d7_WhatsApp_Video_2026-07-10_at_6.48.12_PM.mp4
+[2026-07-11 15:26:56,582] INFO in api: Video: 480x864  16.46 fps  32 frames
+[2026-07-11 15:26:56,611] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-11 15:26:56,614] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-11 15:26:56,615] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-11 15:27:06,678] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-11 15:59:44,326] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 19:41:01,592] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 19:41:04,127] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 19:41:04,188] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 19:41:04,718] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 19:41:04,719] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 19:41:04,720] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 19:41:04,722] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 19:41:04,722] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 19:41:04,957] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 19:41:06,489] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 19:41:06,524] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 19:41:06,722] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 19:41:06,723] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 19:41:06,723] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 19:41:06,726] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 19:41:06,726] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 19:41:30,404] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 19:41:30,487] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 19:41:37,430] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 19:41:37,554] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 19:41:39,909] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 19:41:42,185] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 19:41:43,191] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 19:42:42,180] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 19:42:42,245] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_6faf3664_WhatsApp_Video_2026-07-10_at_6.48.12_PM.mp4
+[2026-07-24 19:42:42,371] INFO in api: Video: 480x864  16.46 fps  32 frames
+[2026-07-24 19:42:42,384] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 19:42:42,385] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 19:42:42,386] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 19:42:49,711] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 19:47:29,173] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 19:47:29,222] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 19:47:59,672] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 19:47:59,716] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 20:02:58,865] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 20:03:00,923] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 20:03:00,960] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 20:03:01,282] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 20:03:01,284] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 20:03:01,285] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 20:03:01,287] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 20:03:01,288] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 20:03:11,345] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 20:03:15,949] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 20:03:16,271] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_51753a87_WhatsApp_Video_2026-07-10_at_6.48.12_PM.mp4
+[2026-07-24 20:03:16,303] INFO in api: Video: 480x864  16.46 fps  32 frames
+[2026-07-24 20:03:16,308] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 20:03:16,309] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 20:03:16,309] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 20:03:23,680] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 21:18:26,210] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:18:28,190] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:18:28,235] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:18:28,583] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:18:28,585] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:18:28,585] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:18:28,587] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:18:28,587] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:18:32,756] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:18:34,367] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:18:34,400] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:18:34,596] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:18:34,598] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:18:34,598] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:18:34,600] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:18:34,601] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:19:14,215] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:19:15,786] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt...
+[2026-07-24 21:19:15,820] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:19:16,021] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:19:16,022] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:19:16,022] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:19:16,023] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:19:16,025] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:20:07,315] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:20:08,851] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:20:09,040] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:20:09,040] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:20:09,041] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:20:09,043] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:20:09,043] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:20:12,113] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:21:10,677] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:22:16,544] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:22:18,041] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:22:18,074] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:22:18,284] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:22:18,285] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:22:18,285] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:22:18,287] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:22:18,287] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:22:18,535] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:22:20,050] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:22:20,081] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:22:20,284] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:22:20,285] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:22:20,285] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:22:20,287] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:22:20,287] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:24:51,167] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:24:52,710] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:24:52,742] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:24:52,935] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:24:52,940] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:24:52,941] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:24:52,943] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:24:52,944] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:24:58,789] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 21:24:58,829] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_5c6d631c_WhatsApp_Video_2026-07-10_at_6.48.12_PM.mp4
+[2026-07-24 21:24:58,866] INFO in api: Video: 480x864  16.46 fps  32 frames
+[2026-07-24 21:24:58,873] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:24:58,874] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:24:58,874] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:25:05,714] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 21:26:22,684] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:26:24,113] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:26:24,143] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:26:24,329] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:26:24,331] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:26:24,331] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:26:24,333] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:26:24,333] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:26:24,536] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:26:25,979] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:26:26,011] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:26:26,207] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:26:26,208] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:26:26,209] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:26:26,211] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:26:26,211] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:27:36,132] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:27:37,540] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:27:37,572] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:27:37,769] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:27:37,770] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:27:37,770] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:27:37,772] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:27:37,772] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:27:37,989] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:27:39,439] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:27:39,471] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:27:39,665] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:27:39,667] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:27:39,678] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:27:39,682] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:27:39,683] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:27:55,908] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 21:29:10,338] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:29:11,758] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:29:11,789] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:29:11,982] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:29:11,983] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:29:11,983] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:29:11,985] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:29:11,985] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:29:12,200] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:29:13,599] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:29:13,630] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:29:13,814] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:29:13,815] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:29:13,816] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:29:13,817] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:29:13,818] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:32:36,103] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:32:37,533] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:32:37,563] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:32:37,758] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:32:37,759] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:32:37,759] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:32:37,761] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:32:37,761] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:32:37,956] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:32:39,387] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:32:39,417] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:32:39,599] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:32:39,600] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:32:39,600] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:32:39,602] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:32:39,602] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:34:15,096] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:34:16,597] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:34:16,634] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:34:16,840] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:34:16,841] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:34:16,841] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:34:16,843] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:34:16,843] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:34:17,065] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:34:18,492] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:34:18,523] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:34:18,713] ERROR in tracking_service: Failed to initialize DeepSORT tracker.
+Traceback (most recent call last):
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\app\services\tracking_service.py", line 31, in _try_init_deepsort
+    self.tracker = DeepSort(
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\deepsort_tracker.py", line 104, in __init__
+    from deep_sort_realtime.embedder.embedder_pytorch import (
+  File "C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\venv\lib\site-packages\deep_sort_realtime\embedder\embedder_pytorch.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+[2026-07-24 21:34:18,713] WARNING in tracking_service: DeepSORT unavailable. Using centroid/IoU fallback tracker.
+[2026-07-24 21:34:18,714] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:34:18,716] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:34:18,716] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:36:37,840] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:36:39,321] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:36:39,354] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:36:40,867] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 21:36:40,867] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:36:40,870] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:36:40,870] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:36:41,129] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:36:42,971] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:36:43,005] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:36:44,452] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 21:36:44,452] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:36:44,458] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:36:44,458] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:38:19,317] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:38:20,782] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:38:20,811] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:38:22,170] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 21:38:22,170] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:38:22,172] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:38:22,172] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:38:22,364] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 21:38:23,784] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 21:38:23,816] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 21:38:25,195] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 21:38:25,195] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:38:25,198] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 21:38:25,198] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 21:50:49,693] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 21:50:49,811] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_8cce62d1_Personwithlaptop.mp4
+[2026-07-24 21:50:49,894] INFO in api: Video: 1920x1080  25.00 fps  510 frames
+[2026-07-24 21:50:50,079] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 21:50:50,080] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:52:09,425] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 21:52:34,407] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 21:52:44,654] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 21:53:06,953] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 21:53:07,269] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_41f5df78_Tablecoffee.mp4
+[2026-07-24 21:53:07,294] INFO in api: Video: 1080x1920  25.00 fps  227 frames
+[2026-07-24 21:53:07,558] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 21:53:07,558] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 21:53:38,938] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 21:54:14,337] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:13:00,001] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:13:06,870] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:13:07,168] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_1cf0fcca_6632883-hd_1080_1920_25fps.mp4
+[2026-07-24 22:13:07,217] INFO in api: Video: 1080x1920  25.00 fps  177 frames
+[2026-07-24 22:13:07,401] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:13:07,401] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:13:38,218] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 22:14:01,227] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:14:16,806] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:14:17,198] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_85e8f637_Personwithlaptop.mp4
+[2026-07-24 22:14:17,220] INFO in api: Video: 1920x1080  25.00 fps  510 frames
+[2026-07-24 22:14:17,374] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:14:17,374] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:15:45,076] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 22:17:41,773] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:17:43,520] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 22:17:43,557] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 22:17:46,002] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:17:46,003] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:17:46,008] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:17:46,008] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 22:17:59,130] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:06,098] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 22:18:06,322] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 22:18:07,902] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:18:07,902] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:18:07,930] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:07,962] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:07,987] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:08,022] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:18:08,026] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:08,052] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:11,397] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:11,425] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:11,521] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_21c6191a_test_video.mp4
+[2026-07-24 22:18:11,541] INFO in api: Video: 320x240  10.00 fps  15 frames
+[2026-07-24 22:18:11,667] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:18:11,667] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:18:12,101] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,129] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,143] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,178] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,186] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,213] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,221] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,249] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,254] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,279] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,285] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,311] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,317] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,341] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,349] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,374] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,380] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,403] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,410] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,435] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,441] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,464] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,471] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,493] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,502] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,526] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,533] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,557] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,564] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,590] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,597] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,622] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,629] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,653] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,661] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,687] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,696] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:18:12,717] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,743] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,752] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:18:12,778] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,805] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,813] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:18:12,826] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,850] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,859] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:18:12,871] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,895] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,903] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:18:12,934] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:12,958] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:12,967] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:18:12,998] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:13,024] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:13,032] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:18:13,076] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:13,104] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:13,111] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:18:13,130] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:18:13,137] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:13,172] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:13,187] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:18:13,236] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:18:13,265] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:18:13,273] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:19:34,111] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:36,404] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 22:19:36,477] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 22:19:36,871] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:19:36,871] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:19:36,898] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:36,906] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:36,930] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:36,934] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:36,954] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:36,958] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:36,979] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:36,982] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:37,002] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:37,005] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:37,024] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:37,027] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:37,047] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:37,050] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:37,070] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:37,074] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:37,093] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:37,097] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:37,120] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:37,124] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:37,143] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:37,147] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:37,165] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:37,169] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:37,189] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:37,194] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:37,213] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:37,217] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:37,237] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:19:37,241] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:19:37,261] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:18,507] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:20,689] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 22:20:20,760] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 22:20:21,140] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:20:21,141] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:21,159] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:21,178] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:21,196] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:21,220] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:20:21,223] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:21,240] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,364] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,383] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,406] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_b4c9327b_test_video.mp4
+[2026-07-24 22:20:23,408] INFO in api: Video: 320x240  10.00 fps  15 frames
+[2026-07-24 22:20:23,481] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:20:23,481] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:23,690] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,712] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,721] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,744] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,750] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,770] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,776] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,795] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,798] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,816] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,819] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,837] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,840] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,858] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,861] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,879] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,883] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,901] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,905] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,923] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,926] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,944] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,949] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,969] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,973] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:23,991] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:23,994] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,014] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,019] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,038] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,042] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,060] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,064] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,082] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,086] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,104] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,109] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:24,122] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,142] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,147] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:24,159] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,178] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,183] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:24,191] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,209] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,215] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:24,222] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,240] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,246] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:24,262] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,280] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,286] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:24,305] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,322] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,328] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:24,348] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,366] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,372] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:24,382] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:20:24,384] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,402] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,407] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:24,426] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:20:24,445] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:20:24,453] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:39,392] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:20:39,505] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_a193144f_Personwithlaptop.mp4
+[2026-07-24 22:20:39,532] INFO in api: Video: 1920x1080  25.00 fps  510 frames
+[2026-07-24 22:20:39,679] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:20:39,680] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:40,928] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:20:51,552] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:20:51,958] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_fab12ea9_Personwithlaptop.mp4
+[2026-07-24 22:20:51,977] INFO in api: Video: 1920x1080  25.00 fps  510 frames
+[2026-07-24 22:20:52,162] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:20:52,162] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:20:58,663] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:21:04,102] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:21:04,450] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_e31a5c3f_6632883-hd_1080_1920_25fps.mp4
+[2026-07-24 22:21:04,483] INFO in api: Video: 1080x1920  25.00 fps  177 frames
+[2026-07-24 22:21:04,689] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:21:04,689] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:21:58,783] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 22:22:32,139] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:22:35,708] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 22:22:38,220] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:22:38,595] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_eb59078e_6632883-hd_1080_1920_25fps.mp4
+[2026-07-24 22:22:38,626] INFO in api: Video: 1080x1920  25.00 fps  177 frames
+[2026-07-24 22:22:38,817] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:22:38,817] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:25:53,518] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 22:26:43,481] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:26:43,568] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_362bac44_6632883-hd_1080_1920_25fps.mp4
+[2026-07-24 22:26:43,638] INFO in api: Video: 1080x1920  25.00 fps  177 frames
+[2026-07-24 22:26:43,832] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:26:43,832] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:27:44,226] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-24 22:28:02,099] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:03,984] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 22:28:04,072] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 22:28:06,168] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:28:06,168] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:06,171] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:06,171] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-24 22:28:08,095] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:10,455] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-24 22:28:10,534] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-24 22:28:10,959] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:28:10,959] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:10,978] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:10,998] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:11,017] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:11,041] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:28:11,044] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:11,062] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:12,655] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:12,682] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:12,787] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_98ad4bb7_test_video.mp4
+[2026-07-24 22:28:12,803] INFO in api: Video: 320x240  10.00 fps  15 frames
+[2026-07-24 22:28:12,956] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:28:12,956] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:13,463] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,494] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,511] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,548] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,559] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,585] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,596] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,623] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,632] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,657] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,667] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,693] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,705] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,738] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,752] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,779] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,790] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,815] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,824] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,848] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,853] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,876] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,884] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,909] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,918] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,942] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,950] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:13,974] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:13,985] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,010] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,017] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,041] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,050] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,078] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,089] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,114] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,124] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:14,148] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,172] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,181] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:14,206] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,230] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,239] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:14,251] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,273] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,282] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:14,294] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,322] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,337] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:14,378] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,408] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,418] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:14,466] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,496] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,506] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:14,621] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,658] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,678] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:14,707] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:28:14,713] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,737] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,746] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:14,785] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-24 22:28:14,818] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-24 22:28:14,832] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:28:58,443] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-24 22:28:58,561] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_bc73d1c9_6632883-hd_1080_1920_25fps.mp4
+[2026-07-24 22:28:58,611] INFO in api: Video: 1080x1920  25.00 fps  177 frames
+[2026-07-24 22:28:58,784] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-24 22:28:58,785] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-24 22:29:28,876] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-07-25 08:46:05,973] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-25 08:46:13,381] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-25 08:46:13,547] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-25 08:46:14,787] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-25 08:46:14,787] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-25 08:46:14,792] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-25 08:46:14,792] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-25 08:46:15,176] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-25 08:46:19,149] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-25 08:46:19,268] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-25 08:46:45,142] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-25 08:46:48,795] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-25 08:46:48,869] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-25 08:46:52,196] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-25 08:46:52,196] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-25 08:46:52,200] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-25 08:46:52,200] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-25 08:46:52,539] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-07-25 08:46:55,165] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-07-25 08:46:55,223] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-07-25 08:46:57,726] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-25 08:46:57,727] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-25 08:46:57,731] INFO in __init__: SQLite Database initialized successfully.
+[2026-07-25 08:46:57,731] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-07-25 09:02:58,721] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-07-25 09:02:58,841] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_0e2d00ef_6632883-hd_1080_1920_25fps.mp4
+[2026-07-25 09:02:59,083] INFO in api: Video: 1080x1920  25.00 fps  177 frames
+[2026-07-25 09:02:59,638] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-07-25 09:02:59,639] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-07-25 09:04:57,881] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-08-12 10:27:15,506] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-08-12 10:27:20,389] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-08-12 10:27:20,524] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-08-12 10:27:26,079] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-08-12 10:27:26,079] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-08-12 10:27:26,085] INFO in __init__: SQLite Database initialized successfully.
+[2026-08-12 10:27:26,086] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-08-12 10:27:26,362] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-08-12 10:27:27,866] WARNING in detection_service: Custom YOLOv11 model 'best.pt' not found at C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt. Falling back to pre-trained 'C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\yolo11n.pt'. It will be downloaded automatically if not present.
+[2026-08-12 10:27:27,910] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-08-12 10:27:29,758] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-08-12 10:27:29,758] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-08-12 10:27:29,762] INFO in __init__: SQLite Database initialized successfully.
+[2026-08-12 10:27:29,763] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-08-12 10:28:02,767] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-12 10:28:03,091] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_dc6e8e82_Glassontable.mp4
+[2026-08-12 10:28:03,252] INFO in api: Video: 2160x4096  30.00 fps  702 frames
+[2026-08-12 10:28:03,512] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-08-12 10:28:03,512] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-08-12 10:30:26,853] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-12 10:30:53,685] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-08-12 10:31:06,750] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-12 10:31:07,268] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_4f0966c9_Waterbottleontable2.mp4
+[2026-08-12 10:31:07,339] INFO in api: Video: 2160x4096  25.00 fps  752 frames
+[2026-08-12 10:31:07,409] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-12 10:31:07,541] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-08-12 10:31:07,542] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-08-12 10:31:13,407] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-12 10:31:22,209] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-12 10:31:22,571] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_b54356aa_Tablecoffee.mp4
+[2026-08-12 10:31:22,601] INFO in api: Video: 1080x1920  25.00 fps  227 frames
+[2026-08-12 10:31:22,877] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-08-12 10:31:22,878] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-08-12 10:31:29,436] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-12 10:31:36,184] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-12 10:31:36,541] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_c4dad514_Tablecoffee.mp4
+[2026-08-12 10:31:36,566] INFO in api: Video: 1080x1920  25.00 fps  227 frames
+[2026-08-12 10:31:36,801] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-08-12 10:31:36,802] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-08-12 10:32:35,834] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-08-12 10:32:43,135] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-12 10:32:48,348] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-08-12 10:35:16,757] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-12 10:35:16,871] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_46e3b8ef_Tablecoffee.mp4
+[2026-08-12 10:35:16,947] INFO in api: Video: 1080x1920  25.00 fps  227 frames
+[2026-08-12 10:35:17,445] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-08-12 10:35:17,445] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-08-12 10:35:58,565] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-08-12 10:36:25,439] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-28 09:17:07,125] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-08-28 09:17:12,154] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt...
+[2026-08-28 09:17:12,285] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-08-28 09:17:20,222] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-08-28 09:17:20,224] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-08-28 09:17:20,254] INFO in __init__: SQLite Database initialized successfully.
+[2026-08-28 09:17:20,256] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-08-28 09:17:22,841] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-08-28 09:17:35,112] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt...
+[2026-08-28 09:17:35,354] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-08-28 09:17:45,894] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-08-28 09:17:45,894] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-08-28 09:17:45,908] INFO in __init__: SQLite Database initialized successfully.
+[2026-08-28 09:17:45,909] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-08-28 09:19:27,478] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-28 09:19:27,622] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_93c77417_Tablecoffee.mp4
+[2026-08-28 09:19:27,878] INFO in api: Video: 1080x1920  25.00 fps  227 frames
+[2026-08-28 09:19:28,757] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-08-28 09:19:28,760] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-08-28 09:21:12,216] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-08-28 09:21:18,966] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-28 09:21:19,159] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_7f34606f_Tablecoffee.mp4
+[2026-08-28 09:21:19,265] INFO in api: Video: 1080x1920  25.00 fps  227 frames
+[2026-08-28 09:21:20,140] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-08-28 09:21:20,141] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-08-28 09:24:45,325] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-08-28 09:34:44,397] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-28 09:34:51,475] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-28 09:34:51,733] ERROR in error_handlers: API Error: Invalid format. Supported: MP4, AVI, MOV, WEBM. (Status 400)
+[2026-08-28 09:34:54,820] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-28 09:48:09,283] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-28 09:51:10,168] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-08-28 09:51:10,258] INFO in api: Video saved to: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads\upload_d4d64b91_video.mp4
+[2026-08-28 09:51:10,293] INFO in api: Video: 1280x720  24.00 fps  192 frames
+[2026-08-28 09:51:10,482] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-08-28 09:51:10,482] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
+[2026-08-28 09:51:44,866] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-08-28 09:55:18,399] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.

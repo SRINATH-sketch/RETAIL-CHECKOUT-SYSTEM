@@ -22,7 +22,7 @@ from app.utils.logger import logger
 # ------------------------------------------------------------------
 # Tuneable parameters
 # ------------------------------------------------------------------
-ENTRY_CONFIRM_FRAMES: int = 3    # consecutive frames required before adding to cart
+ENTRY_CONFIRM_FRAMES: int = 2    # consecutive frames required before adding to cart
 EXIT_TIMEOUT_FRAMES: int = 15   # consecutive missing frames before removing from cart
 DEFAULT_PRICE: float = 50.00    # fallback price for unregistered YOLO classes
 
