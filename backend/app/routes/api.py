@@ -14,6 +14,9 @@ from app.utils.logger import logger
 from app.utils.error_handlers import APIException
 from app.database import db
 
+#For chatbot
+from app.chatbot.chatbot import chatbot_response
+
 api_bp = Blueprint('api', __name__)
 
 # ---------------------------------------------------------------------------
@@ -22,6 +25,8 @@ api_bp = Blueprint('api', __name__)
 detection_service = DetectionService()      # stateless YOLO inference
 checkout_service  = CheckoutService()       # cart helpers / product DB
 _retail_agent     = RetailAgent()           # AI retail intelligence (stateless)
+
+
 
 # One persistent agent + tracker for live webcam streaming sessions
 _webcam_tracker = TrackingService()
@@ -368,4 +373,26 @@ def get_inventory():
     return jsonify({
         "success": True,
         "inventory": [dict(r) for r in rows],
+    })
+
+# ---------------------------------------------------------------------------
+# POST /api/chat
+# ---------------------------------------------------------------------------
+@api_bp.route('/chat', methods=['POST'])
+def chat():
+    data = request.get_json() or {}
+
+    message = data.get("message", "").strip()
+
+    if not message:
+        return jsonify({
+            "success": False,
+            "response": "Please enter a message."
+        }), 400
+
+    response = chatbot_response(message)
+
+    return jsonify({
+        "success": True,
+        "response": response
     })

@@ -2065,3 +2065,115 @@ ModuleNotFoundError: No module named 'pkg_resources'
 [2026-08-28 09:51:10,482] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=3, exit_timeout=15 frames)
 [2026-08-28 09:51:44,866] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
 [2026-08-28 09:55:18,399] INFO in shopping_agent: ShoppingAgent: basket reset — cart cleared.
+[2026-09-21 18:53:38,163] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-09-21 18:53:42,792] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt...
+[2026-09-21 18:53:42,900] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-09-21 18:55:34,979] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-09-21 18:55:37,156] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt...
+[2026-09-21 18:55:37,232] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-09-21 18:55:38,507] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-09-21 18:55:38,507] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-09-21 18:55:38,509] INFO in __init__: SQLite Database initialized successfully.
+[2026-09-21 18:55:38,509] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-09-21 18:55:38,694] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-09-21 18:55:40,662] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt...
+[2026-09-21 18:55:40,730] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-09-21 18:55:41,500] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-09-21 18:55:41,500] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-09-21 18:55:41,502] INFO in __init__: SQLite Database initialized successfully.
+[2026-09-21 18:55:41,503] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-09-21 18:57:49,603] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-09-21 19:03:30,266] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-09-21 19:03:33,035] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt...
+[2026-09-21 19:03:33,163] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-09-21 19:03:34,369] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-09-21 19:03:34,369] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-09-21 19:03:34,371] INFO in __init__: SQLite Database initialized successfully.
+[2026-09-21 19:03:34,372] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-09-21 19:04:08,528] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-09-21 19:04:10,873] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt...
+[2026-09-21 19:04:10,953] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-09-21 19:04:12,101] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-09-21 19:04:12,101] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-09-21 19:04:12,104] INFO in __init__: SQLite Database initialized successfully.
+[2026-09-21 19:04:12,105] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-09-21 19:04:12,291] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-09-21 19:04:14,459] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt...
+[2026-09-21 19:04:14,533] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-09-21 19:04:15,576] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-09-21 19:04:15,576] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-09-21 19:04:15,579] INFO in __init__: SQLite Database initialized successfully.
+[2026-09-21 19:04:15,579] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-09-21 19:04:41,680] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-09-21 19:05:00,911] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-09-21 19:05:00,970] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-09-21 19:05:23,028] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-09-21 19:05:25,142] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt...
+[2026-09-21 19:05:25,229] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-09-21 19:05:26,370] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-09-21 19:05:26,371] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-09-21 19:05:26,381] INFO in __init__: SQLite Database initialized successfully.
+[2026-09-21 19:05:26,382] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-09-21 19:05:26,603] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\static\uploads
+[2026-09-21 19:05:28,691] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM\backend\best.pt...
+[2026-09-21 19:05:28,782] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-09-21 19:05:29,580] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-09-21 19:05:29,580] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-09-21 19:05:29,582] INFO in __init__: SQLite Database initialized successfully.
+[2026-09-21 19:05:29,583] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-10-01 08:44:44,567] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\static\uploads
+[2026-10-01 08:44:51,880] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\best.pt...
+[2026-10-01 08:44:51,925] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-10-01 08:44:52,248] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-10-01 08:44:52,248] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-10-01 08:44:52,250] INFO in __init__: SQLite Database initialized successfully.
+[2026-10-01 08:44:52,250] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-10-01 08:44:52,471] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\static\uploads
+[2026-10-01 08:44:55,143] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\best.pt...
+[2026-10-01 08:44:55,169] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-10-01 08:44:55,382] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-10-01 08:44:55,383] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-10-01 08:44:55,385] INFO in __init__: SQLite Database initialized successfully.
+[2026-10-01 08:44:55,385] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-10-01 08:50:41,677] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-10-01 08:50:41,709] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-10-01 08:50:49,217] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-10-01 08:51:20,057] WARNING in error_handlers: Method not allowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+[2026-10-01 08:51:20,092] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-10-01 08:54:08,990] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\static\uploads
+[2026-10-01 08:54:11,985] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\best.pt...
+[2026-10-01 08:54:12,012] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-10-01 08:54:12,244] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-10-01 08:54:12,244] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-10-01 08:54:12,246] INFO in __init__: SQLite Database initialized successfully.
+[2026-10-01 08:54:12,247] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-10-01 08:54:16,091] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\static\uploads
+[2026-10-01 08:54:19,042] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\best.pt...
+[2026-10-01 08:54:19,104] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-10-01 08:54:19,572] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-10-01 08:54:19,573] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-10-01 08:54:19,577] INFO in __init__: SQLite Database initialized successfully.
+[2026-10-01 08:54:19,577] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-10-01 08:54:35,845] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\static\uploads
+[2026-10-01 08:54:38,677] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\best.pt...
+[2026-10-01 08:54:38,701] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-10-01 08:54:38,897] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-10-01 08:54:38,897] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-10-01 08:54:38,899] INFO in __init__: SQLite Database initialized successfully.
+[2026-10-01 08:54:38,900] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-10-01 08:54:39,074] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\static\uploads
+[2026-10-01 08:54:41,628] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\best.pt...
+[2026-10-01 08:54:41,653] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-10-01 08:54:41,859] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-10-01 08:54:41,859] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-10-01 08:54:41,862] INFO in __init__: SQLite Database initialized successfully.
+[2026-10-01 08:54:41,862] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000
+[2026-10-01 08:55:29,864] WARNING in error_handlers: Resource not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2026-10-01 08:56:03,262] WARNING in error_handlers: Method not allowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+[2026-10-01 08:59:18,570] INFO in __init__: Uploads directory verified: C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\static\uploads
+[2026-10-01 08:59:21,211] INFO in detection_service: Loading custom YOLOv11 model from C:\Users\G.SRINATH\OneDrive\Documents\Desktop\RETAIL-CHECKOUT-SYSTEM - CHATBOT\backend\best.pt...
+[2026-10-01 08:59:21,237] INFO in detection_service: YOLOv11 model successfully loaded.
+[2026-10-01 08:59:21,467] INFO in tracking_service: DeepSORT tracker initialized successfully (embedder=MobileNet, max_age=30, n_init=3, cosine_dist=0.30)
+[2026-10-01 08:59:21,468] INFO in shopping_agent: ShoppingAgent initialized (entry_confirm=2, exit_timeout=15 frames)
+[2026-10-01 08:59:21,476] INFO in __init__: SQLite Database initialized successfully.
+[2026-10-01 08:59:21,476] INFO in run: Starting AI Smart Retail Checkout Flask Server on http://localhost:5000

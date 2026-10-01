@@ -32,6 +32,7 @@
 //         </>
 import { useState, useRef, useEffect } from "react";
 import "./Home.css";
+import Chatbot from "./Chatbot";
 import { FiUploadCloud, FiSearch, FiTrash2, FiRefreshCw, FiPlay } from "react-icons/fi";
 
 function Home() {
@@ -206,6 +207,7 @@ function Home() {
 
     return (
         <div className="home">
+            <Chatbot />
             <header className="header">
                 <h1>🛒 SMART RETAIL CHECKOUT AI</h1>
             </header>
@@ -551,4 +553,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default Home;
