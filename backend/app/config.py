@@ -6,6 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY', 'smart-checkout-super-secret-key-12345')
+    JWT_SECRET_KEY = os.environ.get('JWT_SECRET_KEY', 'smart-checkout-jwt-secret-key-54321')
     
     # SQLite Database settings
     DB_PATH = os.path.join(BASE_DIR, 'checkout.db')
@@ -18,7 +19,6 @@ class Config:
     ALLOWED_IMAGE_EXTENSIONS = {'png', 'jpg', 'jpeg', 'webp'}
     
     # AI Model Settings
-    # Path to custom YOLOv11 model. Defaults to best.pt if present, else falls back to yolo11n.pt
     CUSTOM_MODEL_PATH = os.path.join(BASE_DIR, 'best.pt')
     FALLBACK_MODEL_PATH = os.path.join(BASE_DIR, 'yolo11n.pt')
     
@@ -27,3 +27,13 @@ class Config:
     TRACKER_N_INIT = 3
     TRACKER_NMS_MAX_OVERLAP = 1.0
     TRACKER_MAX_COSINE_DISTANCE = 0.2
+
+    # Admin email allowlist — comma-separated, read from environment.
+    # Emails are compared case-insensitively and stripped of whitespace.
+    # Default includes the two authorized admins. Override in production!
+    _raw_admin_emails = os.environ.get(
+        'ADMIN_EMAILS',
+        'store1@gmail.com'
+    )
+    ADMIN_EMAILS = {e.strip().lower() for e in _raw_admin_emails.split(',') if e.strip()}
+

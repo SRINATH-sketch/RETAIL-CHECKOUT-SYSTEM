@@ -28,7 +28,9 @@ def create_app(config_class=Config):
     
     # Register API blueprints
     from app.routes.api import api_bp
+    from app.routes.admin import admin_bp
     app.register_blueprint(api_bp, url_prefix='/api')
+    app.register_blueprint(admin_bp, url_prefix='/api/admin')
     
     # Initialize the SQLite database tables
     with app.app_context():

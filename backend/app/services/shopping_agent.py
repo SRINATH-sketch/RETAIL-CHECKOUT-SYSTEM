@@ -39,10 +39,12 @@ class ShoppingAgent:
     Call `reset()` to clear state + DB cart.
     """
 
-    def __init__(self):
+    def __init__(self, store_id: int = 1, user_id: int = 1):
         # track_id → {"class_name": str, "seen_count": int}
         # Items waiting for confirmation before entering the cart
         self._pending: dict[str, dict] = {}
+        self.store_id = store_id
+        self.user_id = user_id
 
         # track_id → {"class_name": str, "missing_frames": int}
         # Confirmed items currently in the active basket
@@ -50,9 +52,9 @@ class ShoppingAgent:
 
         self._frame_no: int = 0
         logger.info(
-            "ShoppingAgent initialized "
+            "ShoppingAgent initialized (store=%d, user=%d) "
             "(entry_confirm=%d, exit_timeout=%d frames)",
-            ENTRY_CONFIRM_FRAMES, EXIT_TIMEOUT_FRAMES,
+            self.store_id, self.user_id, ENTRY_CONFIRM_FRAMES, EXIT_TIMEOUT_FRAMES,
         )
 
     # ------------------------------------------------------------------
@@ -122,20 +124,20 @@ class ShoppingAgent:
                 del self._pending[track_id]
 
         # ── Step 3 · Return current cart ─────────────────────────────
-        summary = db.get_cart_summary()
+        summary = db.get_cart_summary(self.store_id, self.user_id)
         summary["events"] = events
         return summary
 
     def get_cart(self) -> dict:
         """Return the current cart summary from SQLite."""
-        return db.get_cart_summary()
+        return db.get_cart_summary(self.store_id, self.user_id)
 
     def reset(self) -> dict:
         """Clear agent state and the SQLite cart."""
         self._pending.clear()
         self._active.clear()
         self._frame_no = 0
-        db.clear_cart()
+        db.clear_cart(self.store_id, self.user_id)
         logger.info("ShoppingAgent: basket reset — cart cleared.")
         return {"success": True, "message": "Shopping basket has been reset."}
 
@@ -160,7 +162,7 @@ class ShoppingAgent:
         so a missing entry never crashes the pipeline.
         """
         product_id = class_name.lower().strip()
-        product = db.get_product(product_id)
+        product = db.get_product(self.store_id, product_id)
 
         if not product:
             default_name = product_id.replace("_", " ").title()
@@ -168,8 +170,8 @@ class ShoppingAgent:
                 "ShoppingAgent: product '%s' not in DB — auto-registering at ₹%.2f",
                 product_id, DEFAULT_PRICE,
             )
-            db.upsert_product(product_id, default_name, DEFAULT_PRICE)
-            product = db.get_product(product_id)
+            db.upsert_product(self.store_id, product_id, default_name, DEFAULT_PRICE)
+            product = db.get_product(self.store_id, product_id)
 
         return dict(product)
 
@@ -182,7 +184,7 @@ class ShoppingAgent:
         product = self._ensure_product(class_name)
         product_id = product["id"]
 
-        inserted = db.add_to_cart(track_id, product_id)
+        inserted = db.add_to_cart(self.store_id, self.user_id, track_id, product_id)
 
         self._active[track_id] = {
             "class_name": class_name,
@@ -217,7 +219,7 @@ class ShoppingAgent:
         product_id = track_data.get("product_id", "unknown")
         class_name = track_data.get("class_name", "unknown")
 
-        removed = db.remove_from_cart(track_id)
+        removed = db.remove_from_cart(self.store_id, self.user_id, track_id)
 
         logger.info(
             "ShoppingAgent ◀ EXIT   track_id=%-5s  product=%s  (removed=%s)",

@@ -113,11 +113,12 @@ class RetailAgent:
     All intelligence is derived from the live cart snapshot passed to analyze().
     """
 
-    def analyze(self, cart: dict, exit_events: list[dict] | None = None) -> dict:
+    def analyze(self, store_id: int, cart: dict, exit_events: list[dict] | None = None) -> dict:
         """
         Produce a full AI analysis of the current cart.
 
         Args:
+            store_id    : int, store identifier
             cart        : dict from db.get_cart_summary()
             exit_events : list of exit-event dicts from ShoppingAgent (optional)
 
@@ -135,11 +136,11 @@ class RetailAgent:
         if exit_events is None:
             exit_events = []
 
-        recommendations = self._recommend(cart)
-        free_gifts = self._evaluate_free_gifts(cart)
+        recommendations = self._recommend(store_id, cart)
+        free_gifts = self._evaluate_free_gifts(store_id, cart)
         discounts, discounted_total = self._apply_discounts(cart)
-        notifications = self._build_notifications(exit_events, cart)
-        inventory = self._check_inventory(cart)
+        notifications = self._build_notifications(store_id, exit_events, cart)
+        inventory = self._check_inventory(store_id, cart)
         insights = self._generate_insights(cart, discounts, discounted_total, recommendations)
 
         logger.info(
@@ -167,7 +168,7 @@ class RetailAgent:
     # 1. Recommendations
     # ------------------------------------------------------------------
 
-    def _recommend(self, cart: dict) -> list[dict]:
+    def _recommend(self, store_id: int, cart: dict) -> list[dict]:
         """
         For each item in the cart, check the COMPLEMENTARY_MAP.
         Only suggest products not already in the cart.
@@ -183,7 +184,7 @@ class RetailAgent:
                 if sugg_id not in cart_ids and sugg_id not in seen_suggestions:
                     seen_suggestions.add(sugg_id)
                     # Try to fetch price from DB
-                    db_product = db.get_product(sugg_id)
+                    db_product = db.get_product(store_id, sugg_id)
                     recommendations.append({
                         "product_id": sugg_id,
                         "name": db_product["name"] if db_product else sugg_id.replace("_", " ").title(),
@@ -194,7 +195,7 @@ class RetailAgent:
 
         return recommendations
 
-    def _evaluate_free_gifts(self, cart: dict) -> list[dict]:
+    def _evaluate_free_gifts(self, store_id: int, cart: dict) -> list[dict]:
         """
         Evaluate conditions for complementary free gifts.
         e.g., Buy 4 Fresh Milk 1L -> Get 1 Cup free.
@@ -204,7 +205,7 @@ class RetailAgent:
         
         if milk_qty >= 4:
             free_cups = milk_qty // 4
-            db_product = db.get_product("cup")
+            db_product = db.get_product(store_id, "cup")
             gifts.append({
                 "product_id": "cup",
                 "name": db_product["name"] if db_product else "Tea Cup",
@@ -249,7 +250,7 @@ class RetailAgent:
     # 3. Notifications (basket exit events)
     # ------------------------------------------------------------------
 
-    def _build_notifications(self, exit_events: list[dict], cart: dict) -> list[dict]:
+    def _build_notifications(self, store_id: int, exit_events: list[dict], cart: dict) -> list[dict]:
         """
         Convert raw ShoppingAgent exit events into human-readable notifications.
         Also adds low-stock warnings from inventory.
@@ -262,7 +263,7 @@ class RetailAgent:
                 pid = evt.get("product_id", "item")
                 # Only show removal warnings if the product is not currently in the cart
                 if not _in_cart(cart, pid):
-                    db_product = db.get_product(pid)
+                    db_product = db.get_product(store_id, pid)
                     name = db_product["name"] if db_product else pid.replace("_", " ").title()
                     msg = f"⚠️  '{name}' was removed from your basket."
                     if msg not in seen_messages:
@@ -276,7 +277,7 @@ class RetailAgent:
 
         # Low-stock warnings
         for product in cart.get("products", []):
-            stock = db.get_stock(product["id"])
+            stock = db.get_stock(store_id, product["id"])
             if stock is not None and 0 < stock <= 5:
                 notifications.append({
                     "type": "low_stock",
@@ -291,13 +292,13 @@ class RetailAgent:
     # 4. Inventory check
     # ------------------------------------------------------------------
 
-    def _check_inventory(self, cart: dict) -> list[dict]:
+    def _check_inventory(self, store_id: int, cart: dict) -> list[dict]:
         """
         For every item in the active cart, verify stock availability.
         """
         inventory_status = []
         for product in cart.get("products", []):
-            stock = db.get_stock(product["id"])
+            stock = db.get_stock(store_id, product["id"])
             qty_needed = product["quantity"]
 
             if stock is None:
