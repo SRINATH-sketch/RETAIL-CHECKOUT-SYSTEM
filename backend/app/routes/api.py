@@ -19,6 +19,9 @@ import datetime
 from flask_bcrypt import Bcrypt
 from functools import wraps
 
+#For chatbot
+from app.chatbot.chatbot import chatbot_response
+
 api_bp = Blueprint('api', __name__)
 bcrypt = Bcrypt()
 
