@@ -9,3 +9,4 @@ Flask-Bcrypt>=1.0.1
 PyJWT>=2.8.0
 scikit-learn>=1.0.0
 gunicorn>=22.0.0
+pandas>=2.0.0
